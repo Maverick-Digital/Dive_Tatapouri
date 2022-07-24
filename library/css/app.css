@@ -676,6 +676,12 @@ img.aligncenter {
     width: 100%;
     margin: 0;
   }
+  .contact-details span{
+    display: block;
+  }
+  .contact-details{
+    text-align: left;
+  }
 }
 li {
   font-weight: 500;
@@ -3250,4 +3256,22 @@ ul.gallery {
 /* blog page lyout  */
 .services-grid  h4 a{
     color: #000;
+}
+
+.contact-details{
+  background-color: #000;
+  text-align: right;
+  padding: 10px 20px;
+  font-size:smaller;
+  color: #fff;
+}
+.contact-details a{
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.contact-details p{
+  margin-bottom: 0 !important;
+  padding: 0;
+  line-height: 1.8em;
 }
